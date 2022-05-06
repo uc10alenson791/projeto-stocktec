@@ -1,0 +1,96 @@
+.container{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    float: left; 
+}
+
+.header{
+    background-color: darkblue;
+    width: 100%;
+    height: auto;
+    float: left; 
+}
+
+.navbar{
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+    float: left; 
+}
+
+.content{
+    background-color: darkcyan;
+    width: 50%;
+    height: 500px;
+    float: left; 
+}
+
+.content2{
+    background-color: green;
+    width: 50%;
+    height: 500px;
+    float: left; 
+}
+
+.produto{
+    background-color: blueviolet;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.produto2{
+    background-color: yellowgreen;
+    width: 50%;
+    height: 500px;
+    float: left; 
+}
+
+.contentCarrinho{
+    background-color: rgb(100, 100, 192);
+    width: 100%;
+    height: auto;
+    float: left; 
+}
+
+.contentContato{
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+    float: left; 
+}
+
+.footer{
+    background-color: rgb(112, 106, 106);
+    width: 100%;
+    height: 50px;
+    float: left; 
+}
+
+.btn{
+    background-color: orangered;
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.fnc{
+    background-color: chartreuse;
+    width: 120px;
+    height: auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .header, .navbar, .content, .content2, .footer {
+      width: 100%;
+    }
+
+    .header img{
+        width: 50%;
+    }
+  }
